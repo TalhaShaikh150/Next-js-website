@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box !important;
+}
+:root{
+  --primary-color: #B88E2F;
+}
+
+.background {
+  background-image: url('/assets/hero-bg.png');
+  height: 84vh;
+  width: 100%;
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: bottom center; /* Positions the image, you can adjust as needed */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+}
+
+.hover-nav:hover{
+  color: #B88E2F;
+  transition: color ease 0.2s;
+}
+.hover-boxes{
+  transition: 0.2s all ease-in-out; 
+}
+.hover-boxes:hover{
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+.hover-boxes-2{
+  transition: 0.2s all ease-in-out; 
+}
+.hover-boxes-2:hover{
+  box-shadow: 1px -10px 20px rgba(0, 0, 0, 0.108);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
