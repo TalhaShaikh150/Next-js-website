@@ -12,7 +12,7 @@ export default function Footer() {
     //            FL 33134 USA</p>
     //           </div>
     //           <div className='flex flex-col w-[20%]'>
-    //           <h2 className='text-[#9F9F9F] text-sm md:text-base xl:text-lg 2xl:text-xl '>Links</h2>
+    //           <h1 className='text-[#9F9F9F] text-sm md:text-base xl:text-lg 2xl:text-xl '>Links</h1>
     //           <ul className='flex flex-col gap-4 mt-4 text-sm font-medium lg:gap-6 sm:text-base 2xl:text-xl'>
     //             <li>Home</li>
     //             <li>Shop</li>
@@ -21,7 +21,7 @@ export default function Footer() {
     //           </ul>
     //           </div>
     //           <div className='flex flex-col w-[20%]'>
-    //           <h2 className='text-[#9F9F9F] text-sm md:text-base xl:text-lg 2xl:text-xl mb-6 sm:mb-2'>Help</h2>
+    //           <h1 className='text-[#9F9F9F] text-sm md:text-base xl:text-lg 2xl:text-xl mb-6 sm:mb-2'>Help</h1>
     //           <ul className='flex flex-col flex-wrap gap-3 mb-6 text-sm font-medium sm:mb-2 lg:gap-6 sm:text-base 2xl:text-xl'>
     //             <li>Payment Options</li>
     //             <li>Returns</li>
@@ -29,7 +29,7 @@ export default function Footer() {
     //           </ul>
     //           </div>
     //           <div className='flex flex-col w-[20%]'>
-    //           <h2 className='text-[#9F9F9F] text-sm md:text-base 2xl:text-xl mb-8'>Newsletter</h2>
+    //           <h1 className='text-[#9F9F9F] text-sm md:text-base 2xl:text-xl mb-8'>Newsletter</h1>
 
     //           <div className='flex flex-col mb-20'>
     //           <input type="text" className='text-base border-black 2xl:text-xl border-b-[2px]' placeholder='Enter Your Email Address'/>
@@ -58,9 +58,9 @@ export default function Footer() {
 
             {/* Links */}
             <div className="w-full sm:w-[25%] md:w-[20%] text-center sm:text-left">
-              <h2 className="text-[#9F9F9F] text-base font-semibold mb-4">
+              <h1 className="text-[#9F9F9F] text-base font-semibold mb-4">
                 Links
-              </h2>
+              </h1>
               <ul className="flex flex-col gap-2 text-sm font-medium 2xl:gap-10 md:gap-6 lg:gap-8 sm:text-base 2xl:text-xl">
                 <li>Home</li>
                 <li>Shop</li>
@@ -71,9 +71,9 @@ export default function Footer() {
 
             {/* Help */}
             <div className="w-full sm:w-[25%] md:w-[20%] text-center sm:text-left">
-              <h2 className="text-[#9F9F9F] text-base font-semibold mb-4">
+              <h1 className="text-[#9F9F9F] text-base font-semibold mb-4">
                 Help
-              </h2>
+              </h1>
               <ul className="flex flex-col gap-2 text-sm font-medium 2xl:gap-10 md:gap-6 lg:gap-8 sm:text-base 2xl:text-xl">
                 <li>Payment Options</li>
                 <li>Returns</li>
@@ -83,9 +83,9 @@ export default function Footer() {
 
             {/* Newsletter */}
             <div className="gap-2  w-full sm:w-[45%] md:w-[20%] flex flex-col items-center sm:items-start">
-              <h2 className="text-[#9F9F9F] text-base font-semibold mb-4">
+              <h1 className="text-[#9F9F9F] text-base font-semibold mb-4">
                 Newsletter
-              </h2>
+              </h1>
               <div className="w-full sm:max-w-[100%] flex flex-col gap-4">
                 <input
                   type="email"
