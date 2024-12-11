@@ -16,18 +16,18 @@ export default function Browse() {
 
       <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
         <div className="hover-boxes-2 text-center w-[90%] mt-4 xs:w-[28vw] lg:w-[22vw] 2xl:w-[18vw]">
-          <Image src={browse01} className="d-block w-full" alt="Dining" />
-          <p className="mt-2 text-sm sm:text-xl font-semibold">Dining</p>
+          <Image src={browse01} className="w-full d-block" alt="Dining" />
+          <p className="mt-2 text-sm font-semibold sm:text-xl">Dining</p>
         </div>
 
         <div className="hover-boxes-2 text-center w-[90%] mt-4 xs:w-[28vw] lg:w-[22vw] 2xl:w-[18vw]">
-          <Image src={browse02} className="d-block w-full" alt="Living" />
-          <p className="mt-2 text-sm sm:text-xl font-semibold">Living</p>
+          <Image src={browse02} className="w-full d-block" alt="Living" />
+          <p className="mt-2 text-sm font-semibold sm:text-xl">Living</p>
         </div>
 
         <div className="hover-boxes-2 text-center w-[90%] mt-4 xs:w-[28vw] lg:w-[22vw] 2xl:w-[18vw]">
-          <Image src={browse03} className="d-block w-full" alt="Bedroom" />
-          <p className="mt-2 text-sm sm:text-xl font-semibold">Bedroom</p>
+          <Image src={browse03} className="w-full d-block" alt="Bedroom" />
+          <p className="mt-2 text-sm font-semibold sm:text-xl">Bedroom</p>
         </div>
       </div>
     </main>

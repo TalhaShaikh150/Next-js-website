@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 html{
+  
   scroll-behavior: smooth;
 }
+::-webkit-scrollbar{display: none;}
 *{
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box !important;
@@ -22,6 +24,15 @@ html{
   background-repeat: no-repeat; /* Prevents repeating the image */
 }
 
+.main-2{
+  background-image: url('/assets/bg_shop.png');
+  height: 36vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  
+}
 .hover-nav:hover{
   color: #B88E2F;
   transition: color ease 0.2s;
@@ -38,10 +49,10 @@ html{
   transition: 0.2s all ease-in-out; 
 }
 .hover-boxes-2:hover{
-  box-shadow: 1px -10px 20px rgba(0, 0, 0, 0.108);
   transform: scale(1.02);
   cursor: pointer;
 }
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

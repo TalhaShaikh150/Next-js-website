@@ -1,9 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Browse from '../components/Browse'
-import Products from '../components/Products'
-import Rooms from '../components/Rooms'
+import Navbar from '../Components/Navbar'
+import Hero from '../Components/Hero'
+import Browse from '../Components/Browse'
+import Products from '../Components/Products'
+import Rooms from '../Components/Rooms'
+import Furniture from '@/Components/Furniture'
+import Footer from '@/Components/Footer'
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
     <Browse/>
     <Products/>
     <Rooms/>
-    </div>
+    {/* <Furniture/> */}
+    <Footer/>
+    </div> 
   )
 }
