@@ -3,6 +3,7 @@ import Image from "next/image";
 import { IoShareSocial } from "react-icons/io5";
 import { MdOutlineCompareArrows } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
+import Link from 'next/link'
 
 import product01 from "../../public/assets/product01.png";
 import product02 from "../../public/assets/product02.png";
@@ -28,7 +29,7 @@ export default function Products() {
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 mt-4 ">
+              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -69,7 +70,7 @@ export default function Products() {
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 mt-4 ">
+              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -102,7 +103,7 @@ export default function Products() {
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 mt-4 ">
+              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -144,7 +145,7 @@ export default function Products() {
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 mt-4 ">
+              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -184,7 +185,7 @@ export default function Products() {
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 mt-4 ">
+              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -215,7 +216,7 @@ export default function Products() {
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 mt-4 ">
+              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -251,7 +252,7 @@ export default function Products() {
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 mt-4 ">
+              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -291,7 +292,7 @@ export default function Products() {
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 mt-4 ">
+              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -322,11 +323,13 @@ export default function Products() {
         </div>
       </div>
 
+        <Link href={'/shop/#More'}>
       <div className="flex justify-center my-12">
-        <button className="text-[#B88E2F] border-2 border-[#B88E2F] w-[50%] h-[8vh] xs:w-[40%] xs:h-[8vh] sm:w-[20vw] sm:h-[8vh] 2xl:w-[20%] 2xl:h-[6vh] hover:bg-[#b69037] hover:text-white transition-colors ease duration-200 ">
-          Shop More
+        <button  className="text-[#B88E2F] border-2 border-[#B88E2F] w-[50%] h-[8vh] xs:w-[40%] xs:h-[8vh] sm:w-[20vw] sm:h-[8vh] 2xl:w-[20%] 2xl:h-[6vh] hover:bg-[#b69037] hover:text-white transition-colors ease duration-200 ">
+          Show More
         </button>
       </div>
+        </Link>
     </main>
   );
 }

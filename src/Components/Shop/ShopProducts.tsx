@@ -15,7 +15,7 @@ import product08 from "../../../public/assets/product08.png";
 
 export default function Products() {
   return (
-    <main className="mt-40 sm:mt-18 lg:mt-10  ">
+    <main className="mt-40 sm:mt-18 lg:mt-10  " id="More">
       
       <div className="flex flex-wrap justify-center gap-4 sm:gap-4 md:gap-6">
         {/* Product01 */}

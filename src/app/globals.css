@@ -58,8 +58,8 @@ html {
   cursor: pointer;
 }
 
-.overlay {
-  display: none;
+.overlay { 
+ display: none;
   top: 0;
   left: 0;
   z-index: 2;
@@ -69,14 +69,19 @@ html {
   background-color: rgba(0, 0, 0, 0.533);
   opacity: 0; /* Hidden by default */
   visibility: hidden; /* Hidden by default */
-  transition: all ease 0.3s !important; /* Smooth transition */
 }
 .hover-boxes:hover .overlay {
   display: block;
   opacity: 1;
   visibility: visible;
 }
-
+.icon{
+  transition: all ease 0.3s;
+}
+.icon:hover{
+  transform: scale(1.2);
+  color: #B88E2F;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

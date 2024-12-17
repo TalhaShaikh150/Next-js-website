@@ -1,11 +1,12 @@
 import React from "react";
+import Link from 'next/link'
 
 export default function Hero() {
   return (
     <main className="background">
       <div
         className="xs:absolute justify-center items-center flex bg-[#FFF3E3] h-[280px] w-[320px] lg:h-[300px]
-     lg:w-[440px] 2xl:w-[480px] 2xl:h-[380px]
+     lg:w-[440px] 2xl:w-[580px] 2xl:h-[380px]
       rounded-md right-[-60px] bottom-[-40px]
       xs:right-[-20px] xs:bottom-[-20px]
       sm:right-[0px]
@@ -24,9 +25,12 @@ export default function Hero() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut elit
             tellus, luctus nec ullamcorper mattis.
           </p>
+          <Link href={'/shop/#More'}>
+
           <button className="hover:bg-[#6e561f]  transition-colors ease duration-200  bg-[#B88E2F] h-12 w-36 md:h-8 md:w-24 lg:h-12 lg:w-32 2xl:h-16 2xl:w-1/3 text-white font-semibold uppercase mt-4">
             Buy Now
           </button>
+          </Link>
         </div>
       </div>
     </main>

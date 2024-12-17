@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link"
 import { IoArrowForwardSharp } from "react-icons/io5";
 import room01 from "../../public/assets/room01.png";
 import room02 from "../../public/assets/room02.png";
@@ -15,9 +16,12 @@ export default function Rooms() {
           Our designer already made a lot of beautiful prototipe of rooms that
           inspire you
         </p>
+        <Link href={'/shop/#More'}>
+
         <button className="hover:bg-[#6e561f] transition-colors ease duration-200 mt-2 bg-[#B88E2F] h-12 w-36 md:h-12 md:w-32 lg:h-12 lg:w-32 2xl:h-16 2xl:w-1/3 text-white font-semibold uppercase ">
           Buy Now
         </button>
+        </Link>
       </div>
       <div className="flex flex-col-reverse sm:flex-row items-center w-[100%] xs:w-[40%] mt-4 sm:mt-0 sm:gap-2 md:gap-4 lg:gap-6 2xl:gap-8 relative">
         <Image
