@@ -22,7 +22,7 @@ export default function Rooms() {
       <div className="flex flex-col-reverse sm:flex-row items-center w-[100%] xs:w-[40%] mt-4 sm:mt-0 sm:gap-2 md:gap-4 lg:gap-6 2xl:gap-8 relative">
         <Image
           src={room01}
-          className="block my-10 sm:my-0 sm:w-[18vw] md:w-[20vw]"
+          className="hidden sm:block my-10 sm:my-0 sm:w-[18vw] md:w-[20vw]"
           alt="Room 1"
         />
         <div className="absolute hidden lg:flex sm:w-[14vw] sm:h-[12vh] lg:w-[10vw] lg:h-[16vh] justify-center bg-[#ffffff90] bottom-2 left-2">
@@ -42,10 +42,10 @@ export default function Rooms() {
         <div className="relative">
           <Image
             src={room02}
-            className="block sm:w-[18vw] md:w-[20vw]"
+            className="w-[90%] block mx-auto lg:w-[20vw]"
             alt="Room 2"
           />
-          <div className="flex gap-6 xl:gap-8  h-[10vh] justify-center md:justify-start items-center me-auto">
+          <div className="flex gap-6 xl:gap-8 my-8 md:my-0 h-[10vh] justify-center md:justify-start items-center me-auto">
             <div className="flex items-center justify-center h-8 w-8 rounded-full border-2 border-[#B88E2F]">
               <div className="h-4 w-4 bg-[#B88E2F] rounded-full"></div>
             </div>

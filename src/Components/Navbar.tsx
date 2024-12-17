@@ -10,9 +10,14 @@ import Link from "next/link";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [showSearch, setShowSearch] = useState(false); // State for showing search input
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const toggleSearch = () => {
+    setShowSearch(!showSearch);
   };
 
   return (
@@ -47,7 +52,10 @@ export default function Navbar() {
         {/* Icons Section */}
         <div className="items-center justify-center flex-shrink-0 gap-6 sm:gap-8 md:gap-4 lg:gap-8 hidden xs:flex">
           <FiUserCheck className="text-xl md:text-2xl cursor-pointer" />
-          <FiSearch className="text-xl md:text-2xl cursor-pointer" />
+          <FiSearch
+            className="text-xl md:text-2xl cursor-pointer relative"
+            onClick={toggleSearch} // Toggle search input visibility
+          />
           <FaRegHeart className="text-xl md:text-2xl cursor-pointer" />
           <AiOutlineShoppingCart className="text-xl md:text-2xl cursor-pointer" />
         </div>
@@ -64,9 +72,20 @@ export default function Navbar() {
         </div>
       </nav>
 
+      {/* Search Input Section */}
+      {showSearch && (
+        <div className="absolute top-[60px] right-8 w-40 p-2 bg-white shadow-lg rounded-md transition-all duration-300 ease-in-out z-50">
+          <input
+            type="text"
+            placeholder="Search..."
+            className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-300"
+          />
+        </div>
+      )}
+
       {/* Off-Canvas Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-3/4 max-w-[220px] xs:max-w-[300px] bg-white shadow-lg z-50 transform ${
+        className={`fixed top-0 right-0 h-full w-3/4 max-w-[200px] xs:max-w-[300px] bg-white shadow-lg z-50 transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out`}
       >

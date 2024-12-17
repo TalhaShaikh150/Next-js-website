@@ -4,13 +4,13 @@ export default function Hero() {
   return (
     <main className="background">
       <div
-        className="absolute flex bg-[#FFF3E3] h-[280px] w-[320px] lg:h-[300px]
+        className="xs:absolute justify-center items-center flex bg-[#FFF3E3] h-[280px] w-[320px] lg:h-[300px]
      lg:w-[440px] 2xl:w-[480px] 2xl:h-[380px]
       rounded-md right-[-60px] bottom-[-40px]
       xs:right-[-20px] xs:bottom-[-20px]
       sm:right-[0px]
       sm:bottom-[0px]
-      md:right-6 md:bottom-6 md:scale-95 sm:scale-[0.85] xs:scale-75 scale-50   lg:right-12 lg:bottom-12 2xl:right-20 2xl:bottom-16 box-border cursor-pointer hover:shadow-lg  transition-shadow ease duration-300 "
+      md:right-6 md:bottom-6 md:scale-95 sm:scale-[0.85] xs:scale-75 scale-[0.8]   lg:right-12 lg:bottom-12 2xl:right-20 2xl:bottom-16 box-border cursor-pointer hover:shadow-lg  transition-shadow ease duration-300 "
       >
         <div className="flex flex-col flex-wrap p-6 ">
           <h3 className="font-semibold tracking-widest md:text-base 2xl:text-3xl">
@@ -24,7 +24,9 @@ export default function Hero() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut elit
             tellus, luctus nec ullamcorper mattis.
           </p>
-        <button className="hover:bg-[#6e561f]  transition-colors ease duration-200  bg-[#B88E2F] h-12 w-36 md:h-8 md:w-24 lg:h-12 lg:w-32 2xl:h-16 2xl:w-1/3 text-white font-semibold uppercase mt-4">Buy Now</button>
+          <button className="hover:bg-[#6e561f]  transition-colors ease duration-200  bg-[#B88E2F] h-12 w-36 md:h-8 md:w-24 lg:h-12 lg:w-32 2xl:h-16 2xl:w-1/3 text-white font-semibold uppercase mt-4">
+            Buy Now
+          </button>
         </div>
       </div>
     </main>

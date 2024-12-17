@@ -4,25 +4,23 @@ import { IoShareSocial } from "react-icons/io5";
 import { MdOutlineCompareArrows } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
 
-import product01 from "../../public/assets/product01.png";
-import product02 from "../../public/assets/product02.png";
-import product03 from "../../public/assets/product03.png";
-import product04 from "../../public/assets/product04.png";
-import product05 from "../../public/assets/product05.png";
-import product06 from "../../public/assets/product06.png";
-import product07 from "../../public/assets/product07.png";
-import product08 from "../../public/assets/product08.png";
+import product01 from "../../../public/assets/product01.png";
+import product02 from "../../../public/assets/product02.png";
+import product03 from "../../../public/assets/product03.png";
+import product04 from "../../../public/assets/product04.png";
+import product05 from "../../../public/assets/product05.png";
+import product06 from "../../../public/assets/product06.png";
+import product07 from "../../../public/assets/product07.png";
+import product08 from "../../../public/assets/product08.png";
 
 export default function Products() {
   return (
-    <main className="mt-8">
-      <h1 className="text-center text-[#3A3A3A] font-bold text-4xl my-10">
-        Our Products
-      </h1>
+    <main className="mt-40 sm:mt-18 lg:mt-10  ">
+      
       <div className="flex flex-wrap justify-center gap-4 sm:gap-4 md:gap-6">
         {/* Product01 */}
 
-        <div className="bg-slate-100  hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
+        <div className="bg-slate-100  hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[32vw] lg:w-[18vw] 2xl:w-[16vw] relative">
           <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
@@ -63,7 +61,7 @@ export default function Products() {
 
         {/* Product02 */}
 
-        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
+        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[32vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
@@ -96,7 +94,7 @@ export default function Products() {
 
         {/* Product03 */}
 
-        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
+        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[32vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
@@ -138,7 +136,7 @@ export default function Products() {
 
         {/* Product04 */}
 
-        <div className="bg-slate-100 hover-boxes pb-5  w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
+        <div className="bg-slate-100 hover-boxes pb-4  w-[90%] md:mt-4 xs:w-[32vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
@@ -164,7 +162,7 @@ export default function Products() {
             <p className="mt-3 text-sm font-semibold sm:text-xl text-start">
               Respira
             </p>
-            <p className="text-[#898989]  my-1">Outdoor bar table</p>
+            <p className="text-[#898989]  my-1">Outdoor bar table and stool</p>
             <div className="flex flex-wrap items-center">
               <p className="font-bold">
                 R<sub className="text-xs md:text-sm 2xl:text-base ">P</sub>{" "}
@@ -177,8 +175,8 @@ export default function Products() {
 
       {/* Row-2 */}
 
-      <div className="flex flex-wrap justify-center gap-4 mt-2 md:gap-6">
-        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
+      <div className="flex flex-wrap justify-center mt-4 gap-4 md:gap-6">
+        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[32vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
@@ -209,7 +207,7 @@ export default function Products() {
           </div>
         </div>
 
-        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
+        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[32vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
@@ -245,7 +243,7 @@ export default function Products() {
           </div>
         </div>
 
-        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
+        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[32vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
@@ -285,7 +283,7 @@ export default function Products() {
           </div>
         </div>
 
-        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
+        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[32vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
@@ -320,12 +318,6 @@ export default function Products() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="flex justify-center my-12">
-        <button className="text-[#B88E2F] border-2 border-[#B88E2F] w-[50%] h-[8vh] xs:w-[40%] xs:h-[8vh] sm:w-[20vw] sm:h-[8vh] 2xl:w-[20%] 2xl:h-[6vh] hover:bg-[#b69037] hover:text-white transition-colors ease duration-200 ">
-          Shop More
-        </button>
       </div>
     </main>
   );

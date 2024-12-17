@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        xs: "460px", // Custom breakpoint for extra small screens
+        xs: "500px", // Custom breakpoint for extra small screens
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
