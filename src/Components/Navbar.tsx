@@ -39,14 +39,14 @@ export default function Navbar() {
 
         {/* Nav Links Section */}
         <ul className="items-center justify-center flex-grow hidden gap-8 text-lg md:flex 2xl:text-2xl sm:ms-6 lg:ms-12 lg:gap-12">
-          <li className="underline hover-nav underline-offset-4">
+          <li className="hover-nav">
             <Link href="/">Home</Link>
           </li>
           <li className="hover-nav">
             <Link href="/shop">Shop</Link>
           </li>
           <li className="hover-nav">
-            <Link href="#">Blog</Link>
+            <Link href="/blog">Blog</Link>
           </li>
           <li className="hover-nav">
             <Link href="#">Contact</Link>

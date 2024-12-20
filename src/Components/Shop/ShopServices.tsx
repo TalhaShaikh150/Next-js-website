@@ -1,55 +1,52 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import trophy from '../../../public/assets/trophy.png'
 import warranty from '../../../public/assets/warranty.png'
 import delivery from '../../../public/assets/delivery.png'
 import customer from '../../../public/assets/customer.png'
+import { useState } from "react";
 
 export default function ShopServices() {
-  return (
-  //  <div className="main p-10 bg-[#FAF3EA]">
-  //       <div className='flex items-center justify-between flex-wrap-reverse w-[100%] md:w-[90%] 2xl:w-[90%] mx-auto'>
+  const [activeButton, setActiveButton] = useState(1); // Default to "1"
 
-  //         <div className='flex  items-center gap-4'>
-  //         <Image src={trophy} className='w-10'  alt="Trophy"/>
-  //         <div className='flex flex-col'>
-  //         <h1 className='text-xs sm:text-sm md:text-base 2xl:text2xl font-semibold'>High Quality</h1>
-  //         <p className='text-[#898989]'>crafted from top materials</p>
-  //         </div>
-  //         </div>
-
-  //           <div className='flex items-center gap-4'>
-  //         <Image src={warranty} className='w-10'  alt="warranty"/>
-          
-  //         <div className='flex flex-col'>
-
-  //         <h1 className='text-xs sm:text-sm md:text-base 2xl:text2xl font-semibold'>Warranty Protection</h1>
-
-  //         <p className='text-[#898989]'>over 2 years</p>
-  //           </div>
-  //           </div>
-            
-  //           <div className='flex items-center gap-4'>
-  //         <Image src={delivery} className='w-10'  alt="delivery"/>
-  //         <div className='flex flex-col'>
-
-  //         <h1 className='text-xs sm:text-sm md:text-base 2xl:text2xl font-semibold'>Free Shipping</h1>
-  //         <p className='text-[#898989]'>Order over 150 $</p>
-  //         </div>
-  //           </div>
-
-  //           <div className='flex items-center gap-4'>
-  //         <Image src={customer}  className='w-10' alt="customer"/>
-  //         <div className="flex flex-col">
-
-  //         <h1 className='text-xs sm:text-sm md:text-base 2xl:text2xl font-semibold'>24/7 Support</h1>
-  //         <p className='text-[#898989]'>Dedicated support</p>
-  //         </div>
-  //           </div>
-          
-  //       </div>
-  //  </div>
-  
+return(
+  <>
+     {/* Pagination Buttons */}
+     <div className="flex mx-auto xs:flex-row justify-center my-14 gap-6 flex-wrap">
+   <button
+     className={`rounded-md text-base md:text-lg 2xl:text-xl py-3 px-6 transition-all ease duration-300 ${
+       activeButton === 1 ? "bg-[#B88E2f] text-white" : "bg-[#FFF3E3]"
+     }`}
+     onClick={() => setActiveButton(1)}
+   >
+     1
+   </button>
+   <button
+     className={`rounded-md text-base md:text-lg 2xl:text-xl py-3 px-6 transition-all ease duration-300 ${
+       activeButton === 2 ? "bg-[#B88E2f] text-white" : "bg-[#FFF3E3]"
+     }`}
+     onClick={() => setActiveButton(2)}
+   >
+     2
+   </button>
+   <button
+     className={`rounded-md text-base md:text-lg 2xl:text-xl py-3 px-6 transition-all ease duration-300 ${
+       activeButton === 3 ? "bg-[#B88E2f] text-white" : "bg-[#FFF3E3]"
+     }`}
+     onClick={() => setActiveButton(3)}
+   >
+     3
+   </button>
+   <button
+     className={`rounded-md text-base md:text-lg 2xl:text-xl py-3 px-8 transition-all ease duration-300 ${
+       activeButton === 4 ? "bg-[#B88E2f] text-white" : "bg-[#FFF3E3]"
+     }`}
+     onClick={() => setActiveButton(4)}
+   >
+     Next
+   </button>
+ </div>
 
     <div className="main p-16 bg-[#FAF3EA]">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-[100%] md:w-[96%] 2xl:w-[90%] mx-auto">
@@ -90,5 +87,8 @@ export default function ShopServices() {
         </div>
       </div>
     </div>
+
+  
+    </>
   );
 }

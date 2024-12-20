@@ -26,10 +26,12 @@ export default function Products() {
         <div className="bg-slate-100  hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
           <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
+            <Link href={'/products'}>
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
+            </Link>
+              <div className="flex text-white items-center gap-1 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -67,10 +69,12 @@ export default function Products() {
         <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
+            <Link href={'/products'}>
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
+            </Link>
+              <div className="flex text-white items-center gap-1 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -100,10 +104,12 @@ export default function Products() {
         <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
+            <Link href={'/products'}>
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
+            </Link>
+              <div className="flex text-white items-center gap-1 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -142,10 +148,12 @@ export default function Products() {
         <div className="bg-slate-100 hover-boxes pb-5  w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
+            <Link href={'/products'}>
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
+            </Link>
+              <div className="flex text-white items-center gap-1 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -182,10 +190,12 @@ export default function Products() {
         <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
+            <Link href={'/products'}>
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
+            </Link>
+              <div className="flex text-white items-center gap-1 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -213,10 +223,12 @@ export default function Products() {
         <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
+            <Link href={'/products'}>
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
+            </Link>
+              <div className="flex text-white items-center gap-1 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -249,10 +261,12 @@ export default function Products() {
         <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
+            <Link href={'/products'}>
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
+            </Link>
+              <div className="flex text-white items-center gap-1 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />
@@ -289,10 +303,12 @@ export default function Products() {
         <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
         <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
+            <Link href={'/products'}>
               <button className="bg-white font-semibold text-sm md:text-base 2xl:text-lg text-[#B88E2F] py-2 px-6 hover:bg-[#B88E2f] hover:text-[#fff] transition duration-200 all">
                 Add To Cart
               </button>
-              <div className="flex text-white items-center gap-1 md:gap-2 2xl:gap-3 mt-4 ">
+            </Link>
+              <div className="flex text-white items-center gap-1 2xl:gap-3 mt-4 ">
                 <IoShareSocial className="text-xl font-bold" /> 
                 <span className="text-sm"> Share </span>
                 <MdOutlineCompareArrows className="text-xl font-bold" />

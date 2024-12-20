@@ -30,7 +30,9 @@ export default function Footer() {
                 <Link href={'/shop'}>
                 <li>Shop</li>
                 </Link>
-                <li>About</li>
+                <Link href={'/blog'}>
+                <li>Blog</li>
+                </Link>
                 <li>Contact</li>
               </ul>
             </div>

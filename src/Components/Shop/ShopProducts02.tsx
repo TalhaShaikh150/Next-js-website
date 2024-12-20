@@ -4,7 +4,6 @@ import Image from "next/image";
 import { IoShareSocial } from "react-icons/io5";
 import { MdOutlineCompareArrows } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
-import { useState } from "react";
 
 import product01 from "../../../public/assets/product01.png";
 import product02 from "../../../public/assets/product02.png";
@@ -18,7 +17,6 @@ import product08 from "../../../public/assets/product08.png";
 
 export default function Products() {
 
-  const [activeButton, setActiveButton] = useState(1); // Default to "1"
   return (
 
     <main className="mt-4">
@@ -325,49 +323,8 @@ export default function Products() {
           </div>
         </div>
       </div>
-{/* 
-      <div className="flex mx-auto xs:flex-row justify-center my-12 gap-6 flex-wrap ">
-        <button className="bg-[#B88E2f] rounded-md  text-white text-base md:text-lg 2xl:text-xl py-3 px-6">1</button>
-        <button className="bg-[#FFF3E3] rounded-md py-3 px-6">2</button>
-        <button className="bg-[#FFF3E3] rounded-md py-3 px-6">3</button>
-        <button className="bg-[#FFF3E3] rounded-md py-3 px-8">Next</button>
-      </div> */}
 
-       {/* Pagination Buttons */}
-       <div className="flex mx-auto xs:flex-row justify-center my-12 gap-6 flex-wrap">
-        <button
-          className={`rounded-md text-base md:text-lg 2xl:text-xl py-3 px-6 transition-all ease duration-300 ${
-            activeButton === 1 ? "bg-[#B88E2f] text-white" : "bg-[#FFF3E3]"
-          }`}
-          onClick={() => setActiveButton(1)}
-        >
-          1
-        </button>
-        <button
-          className={`rounded-md text-base md:text-lg 2xl:text-xl py-3 px-6 transition-all ease duration-300 ${
-            activeButton === 2 ? "bg-[#B88E2f] text-white" : "bg-[#FFF3E3]"
-          }`}
-          onClick={() => setActiveButton(2)}
-        >
-          2
-        </button>
-        <button
-          className={`rounded-md text-base md:text-lg 2xl:text-xl py-3 px-6 transition-all ease duration-300 ${
-            activeButton === 3 ? "bg-[#B88E2f] text-white" : "bg-[#FFF3E3]"
-          }`}
-          onClick={() => setActiveButton(3)}
-        >
-          3
-        </button>
-        <button
-          className={`rounded-md text-base md:text-lg 2xl:text-xl py-3 px-8 transition-all ease duration-300 ${
-            activeButton === 4 ? "bg-[#B88E2f] text-white" : "bg-[#FFF3E3]"
-          }`}
-          onClick={() => setActiveButton(4)}
-        >
-          Next
-        </button>
-      </div>
+      
     </main>
   );
 }
