@@ -106,7 +106,7 @@ export default function Navbar() {
         } transition-transform duration-300 ease-in-out`}
       >
         <ul className="flex flex-col gap-6 p-8 text-lg">
-          <li className="underline hover-nav underline-offset-4">
+          <li className="hover-nav">
             <Link href="/" onClick={toggleMenu}>
               Home
             </Link>
@@ -117,7 +117,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="hover-nav">
-            <Link href="#" onClick={toggleMenu}>
+            <Link href="/blog" onClick={toggleMenu}>
               Blog
             </Link>
           </li>
