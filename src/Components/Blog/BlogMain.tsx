@@ -9,7 +9,7 @@ import { FaTag } from "react-icons/fa";
 
 export default function BlogMain() {
   return (
-    <div className="flex flex-col items-center lg:items-start  md:m-6 lg:m-10 2xl:m-20 mt-26 xs:mt-24 w-[100vw] sm:w-[60vw] md:w-[70vw] xl:w-[40vw] 2xl:w-[32vw]">
+    <div className="flex flex-col items-center lg:items-start  md:m-6 lg:m-10 2xl:m-20 mt-32 xs:mt-24 w-[100vw] sm:w-[60vw] md:w-[70vw] xl:w-[40vw] 2xl:w-[32vw]">
       <div className="left-col my-10">
         <Image
           src={blog01}
