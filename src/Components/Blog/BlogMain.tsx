@@ -16,7 +16,7 @@ import { FaTag } from "react-icons/fa";
 export default function BlogMain() {
   return (
     <>
-      <div className="flex flex-col sm:flex-row justify-between  2xl:h-[140vh]">
+      <div className="flex flex-col sm:flex-row justify-between">
         <div className="flex flex-col items-center lg:items-start  md:m-6 lg:m-10 2xl:m-20 mt-32 xs:mt-24 w-[100vw] sm:w-[60vw] md:w-[70vw] xl:w-[40vw] 2xl:w-[32vw]">
           <div className="left-col my-10">
             <Image
@@ -71,8 +71,7 @@ export default function BlogMain() {
             </div>
             <div className="flex flex-col items-center sm:items-start">
               <h1 className="text-xl md:text-2xl 2xl:text-3xl font-semibold my-2">
-                Going all-in with millennial design
-              </h1>
+              Exploring new ways of decorating              </h1>
               <p className="text-[#9F9F9F] leading-relaxed text-center xs:text-justify sm:w-[50vw] md:w-[40vw] 2xl:w-[36vw]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus
@@ -107,8 +106,8 @@ export default function BlogMain() {
             </div>
             <div className="flex flex-col items-center sm:items-start">
               <h1 className="text-xl md:text-2xl 2xl:text-3xl font-semibold my-2">
-                Going all-in with millennial design
-              </h1>
+              Handmade pieces that took time to make
+                            </h1>
               <p className="text-[#9F9F9F] leading-relaxed text-center xs:text-justify sm:w-[50vw] md:w-[40vw] 2xl:w-[36vw]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus
@@ -132,7 +131,7 @@ export default function BlogMain() {
             type="text"
             className="mx-auto ps-2 h-12 w-60 md:h-14 md:w-80 border rounded-xl border-[#9F9F9F]"
           />
-            <FiSearch className="absolute right-14 top-9 xxs:right-24 xxs:top-8 xs:right-28 xs:top-8 sm:top-9 sm:right-14 md:top-9 items-center my-auto md:right-12 text-xl md:text-2xl 2xl:text-3xl align-middle" />
+            <FiSearch className="absolute right-12 top-9 xxs:right-18 xxs:top-8 xs:right-14 xs:top-8 sm:top-9 sm:right-14 md:top-9 items-center my-auto md:right-12 text-xl md:text-2xl 2xl:text-3xl align-middle" />
           <h1 className="font-medium my-6 text-xl md:text-2xl 2xl:text-3xl">
             Categories
           </h1>
@@ -166,7 +165,7 @@ export default function BlogMain() {
           <div className="flex gap-4 my-5">
               <Image src={recent01} alt="recent01" className="w-[30%] h-[40%]"/>
               <div className="flex flex-col justify-center">
-              <p>Going all-in with millennial design</p>
+              <p>Going all-in with <br /> millennial design</p>
               <p className="text-[#9F9F9F]">03 Aug 2022</p>
               </div>
             </div>
@@ -174,7 +173,7 @@ export default function BlogMain() {
             <div className="flex gap-4 my-5">
               <Image src={recent02} alt="recent02" className="w-[30%] h-[40%]"/>
               <div className="flex flex-col justify-center">
-              <p>Going all-in with millennial design</p>
+              <p>Exploring new ways <br /> of decorating</p>
               <p className="text-[#9F9F9F]">03 Aug 2022</p>
               </div>
             </div>
@@ -182,7 +181,7 @@ export default function BlogMain() {
             <div className="flex gap-4 my-5">
               <Image src={recent03} alt="recent03" className="w-[30%] h-[40%]"/>
               <div className="flex flex-col justify-center">
-              <p>Going all-in with millennial design</p>
+              <p>Handmade pieces <br /> that took time to make</p>
               <p className="text-[#9F9F9F]">03 Aug 2022</p>
               </div>
             </div>
@@ -190,7 +189,7 @@ export default function BlogMain() {
             <div className="flex gap-4 my-5">
               <Image src={recent04} alt="recent04" className="w-[30%] h-[40%]"/>
               <div className="flex flex-col justify-center">
-              <p>Going all-in with millennial design</p>
+              <p>Modern home in <br /> Milan</p>
               <p className="text-[#9F9F9F]">03 Aug 2022</p>
               </div>
             </div>
@@ -199,7 +198,7 @@ export default function BlogMain() {
             <div className="flex gap-4 my-5">
               <Image src={recent05} alt="recent05" className="w-[30%] h-[40%]"/>
               <div className="flex flex-col justify-center">
-              <p>Going all-in with millennial design</p>
+              <p>Colorful office <br /> redesign</p>
               <p className="text-[#9F9F9F]">03 Aug 2022</p>
               </div>
             </div>

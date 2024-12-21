@@ -23,7 +23,7 @@ export default function Products() {
       <div className="flex flex-wrap justify-center gap-4 sm:gap-4 md:gap-6">
         {/* Product01 */}
 
-        <div className="bg-slate-100  hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
+        <div className="bg-slate-100 hover-boxes pb-4 w-[90%] md:mt-4 xs:w-[36vw] lg:w-[18vw] 2xl:w-[16vw] relative">
           <div className=" overlay">
             <div className="flex flex-col justify-center items-center h-[100%]">
             <Link href={'/products'}>
