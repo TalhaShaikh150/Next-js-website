@@ -1,27 +1,24 @@
-
 import React from 'react'
 import { IoChevronForward } from "react-icons/io5";
 import { LiaSlidersHSolid } from "react-icons/lia";
 import { IoGrid } from "react-icons/io5";
-import { BsViewList } from "react-icons/bs";
 import Image from 'next/image'
 import logo02 from '../../../public/assets/logo02.png'
+import { BsViewList } from "react-icons/bs";
 
 
-
-
-export default function BlogHero() {
+export default function ContactHero() {
   return (
     <div>
   <div className="main-2">
   {/* Header Section */}
   <div className="flex flex-col h-[30vh] items-center justify-center px-4 text-center">
     <Image src={logo02} alt='hero-logo' className='w-12'/>
-    <h1 className="text-3xl font-medium md:text-4xl 2xl:text-5xl cursor-pointer">Blog</h1>
+    <h1 className="text-3xl font-medium md:text-4xl 2xl:text-5xl cursor-pointer">Contact</h1>
     <div className="flex items-center gap-1 mt-2 text-sm md:text-base">
       <h1 className="font-medium cursor-pointer">Home</h1>
       <IoChevronForward className="text-xs" />
-      <h1 className='cursor-pointer'>Blog</h1>
+      <h1 className='cursor-pointer'>Contact</h1>
     </div>
   </div>
 
@@ -65,5 +62,3 @@ export default function BlogHero() {
   </div>
   )
 }
-
-

@@ -5,6 +5,7 @@ import ShopProducts from "@/Components/Shop/ShopProducts";
 import ShopProducts02 from "@/Components/Shop/ShopProducts02";
 import ShopServices from "@/Components/Shop/ShopServices";
 import Footer from "@/Components/Footer";
+import Buttons from "@/Components/Buttons";
 
 export default function Shop() {
   return (
@@ -13,6 +14,7 @@ export default function Shop() {
      <HeroShop/>
      <ShopProducts/>
      <ShopProducts02/>
+     <Buttons/>
      <ShopServices/>
      <Footer/>
     </div>

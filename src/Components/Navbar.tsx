@@ -49,7 +49,7 @@ export default function Navbar() {
             <Link href="/blog">Blog</Link>
           </li>
           <li className="hover-nav">
-            <Link href="#">Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
 
@@ -122,7 +122,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="hover-nav">
-            <Link href="#" onClick={toggleMenu}>
+            <Link href="/contact" onClick={toggleMenu}>
               Contact
             </Link>
           </li>

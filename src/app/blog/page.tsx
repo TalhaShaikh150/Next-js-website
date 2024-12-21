@@ -4,6 +4,7 @@ import BlogHero from '@/Components/Blog/BlogHero'
 import BlogMain from '@/Components/Blog/BlogMain'
 import ShopServices from '@/Components/Shop/ShopServices'
 import Footer from '@/Components/Footer'
+import Buttons from '@/Components/Buttons'
 
 export default function page() {
   return (
@@ -11,6 +12,7 @@ export default function page() {
       <Navbar/>
       <BlogHero/>
       <BlogMain/>
+      <Buttons/>
       <ShopServices/>
       <Footer/>
     </div>
