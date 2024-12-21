@@ -16,7 +16,7 @@ import { FaTag } from "react-icons/fa";
 export default function BlogMain() {
   return (
     <>
-      <div className="flex flex-col sm:flex-row justify-between h-[200vh]  2xl:h-[140vh]">
+      <div className="flex flex-col sm:flex-row justify-between  2xl:h-[140vh]">
         <div className="flex flex-col items-center lg:items-start  md:m-6 lg:m-10 2xl:m-20 mt-32 xs:mt-24 w-[100vw] sm:w-[60vw] md:w-[70vw] xl:w-[40vw] 2xl:w-[32vw]">
           <div className="left-col my-10">
             <Image
@@ -127,12 +127,12 @@ export default function BlogMain() {
           </div>
         </div>
 
-        <div className="p-5 mx-auto my-auto flex flex-col relative">
+        <div className="p-5 mx-auto  flex flex-col mt-28  md:mt-40 relative">
           <input
             type="text"
             className="mx-auto ps-2 h-12 w-60 md:h-14 md:w-80 border rounded-xl border-[#9F9F9F]"
           />
-          <FiSearch className="absolute right-24 top-8 sm:top-9 sm:right-14 md:top-8 md:right-12 text-xl md:text-2xl 2xl:text-3xl align-middle" />
+            <FiSearch className="absolute right-14 top-9 xxs:right-24 xxs:top-8 xs:right-28 xs:top-8 sm:top-9 sm:right-14 md:top-9 items-center my-auto md:right-12 text-xl md:text-2xl 2xl:text-3xl align-middle" />
           <h1 className="font-medium my-6 text-xl md:text-2xl 2xl:text-3xl">
             Categories
           </h1>
@@ -207,6 +207,7 @@ export default function BlogMain() {
 
         </div>
         </div>
+        
       </div>
     </>
   );
